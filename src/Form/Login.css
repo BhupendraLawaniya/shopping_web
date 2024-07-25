@@ -1,0 +1,61 @@
+/* login.css */
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; /* Center vertically within viewport */
+  height: 50vh; /* Stretch to full viewport height */
+  padding: 20px; /* Add some padding for visual appeal */
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px; /* Set desired width for the login form */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Add some space between form and button */
+}
+
+.login h2 {
+  margin-bottom: 20px; /* Add spacing below the heading */
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px; /* Set appropriate font size for inputs */
+}
+
+.login input[type="text"]::placeholder,
+.login input[type="password"]::placeholder {
+  color: #999;
+}
+
+.login-container button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  background-color: #256ab4;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px; /* Match font size with inputs for consistency */
+}
+
+.login-container button:hover {
+  background-color: #6492c3;
+}
+.submit{
+background-color: #256ab4;
+color: white;
+}

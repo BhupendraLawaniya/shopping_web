@@ -1,0 +1,27 @@
+.footer {
+    background-color: #434242;
+    padding: 10px;
+    color: white;
+    margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer > div {
+    margin-right: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.footer > div:last-child {
+    margin-right: 0;
+}
+
+.footer > .R1 {
+    padding: 30px 10px 30px;
+    margin: 0;
+    max-width: 100%;
+}
+
+

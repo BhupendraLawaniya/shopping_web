@@ -1,0 +1,41 @@
+/* slider.css */
+
+.pic {
+    margin-top: 300px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  .pic .Coffeemaker, .pic .SpicesBox, .pic .MixtureGrinder, .pic .WaterPurifier ,.pic .Tandoor{
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  .pic h2 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .pic .price {
+    font-size: 1em;
+    color: #888;
+  }
+  
+  @media (max-width: 1024px) {
+    .pic img {
+      height: 200px;
+    }
+  }
+  
+  @media (max-width: 464px) {
+    .pic img {
+      height: 150px;
+    }
+  }
+  

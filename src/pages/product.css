@@ -1,0 +1,84 @@
+/* product.css */
+
+.product1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .sideImg, .img, .product_details {
+    margin: 10px;
+  }
+  
+  .sideImg img, .mainImg img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .sideImg {
+    width: 10%;
+  }
+  
+  .img {
+    width: 30%;
+  }
+  
+  .mainImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  .mainImg img {
+    width: 100%; /* Set to 100% to fill the container */
+    height: auto;
+  }
+  
+  .product_details {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .product_list {
+    padding: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .product_heading h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .product_detail p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .product_price h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .MRP_button button, .cart_button button {
+    background-color: #50403a;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .MRP_button button:hover, .cart_button button:hover {
+    background-color: #e63600;
+  }
+  
